@@ -1,0 +1,17 @@
+{
+  "name": "vue-minimum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anvilco/anvil": "^2.13.1",
+    "vue": "^3.2.40"
+  }
+}

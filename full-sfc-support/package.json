@@ -1,0 +1,21 @@
+{
+  "name": "full-sfc-support",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "vite build && vite build --ssr src/ssr-entry.js && node src/generate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anvilco/anvil": "^2.13.1",
+    "vue": "^3.2.40"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.2",
+    "vite": "^3.1.7"
+  }
+}
