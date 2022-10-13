@@ -16,9 +16,17 @@ This app uses Vue's single-file components (SFC) and uses their compiled CSS aut
 NOTE: Vue's scoped styles (`<style scoped>`) are currently not supported with the Anvil PDF generation endpoint. Please
 consider using other combinations of selectors for your styles.
 
+### invoice-example
+
+Same as the `full-sfc-support` app, however, it is a Vue-port of our [React invoice example](https://github.com/anvilco/html-pdf-invoice-template/tree/main/react-pdf).
+
+Example output:
+
+![Invoice output](./invoice-example/invoice.png)
+
 #### Usage
 
-For either app, usage is the same:
+Whichever app you choose the usage is the same:
 
 Install the dependencies:
 
@@ -31,7 +39,7 @@ yarn install
 Run the generate command:
 
 ```shell
-npm run generate && open output.pdf
+ANVIL_API_KEY=YOUR_API_KEY npm run generate && open output.pdf
 # or 
-yarn generate && open output.pdf
+ANVIL_API_KEY=YOUR_API_KEY yarn generate && open output.pdf
 ```
